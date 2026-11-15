@@ -41,11 +41,20 @@
     summary{min-height:44px;align-content:center}
     table{overflow-wrap:anywhere}
   }
+
+.stats>div{min-width:0}
+.stats>div:nth-child(n+4){padding-top:16px;border-top:1px solid var(--line)}
+.stats>div:nth-child(n+4) strong{font-size:20px}
+@media(max-width:760px){
+  .stats{row-gap:12px}
+  .stats>div:nth-child(n+4){padding-top:8px}
+  .stats>div:nth-child(n+4) strong{font-size:16px}
+}
 </style></head><body id="top"><a class="skip" href="#main">跳到正文</a>
 <nav class="nav" aria-label="生涯报告目录"><a href="#top">概览</a><a href="#goal">职业目标</a><a href="#practice">实践经历</a><a href="#honors">阶段成果</a><a href="#plan">成长计划</a></nav>
 <main id="main">
-<div class="hero wrap"><div><p class="kicker">职业生涯发展报告 · 成长赛道</p><h1>把技术做进<br>真实的需求里</h1><p class="intro">从电气工程到 AI 产品。我希望把用户想完成的事，变成 AI 能执行、团队能验证的任务。</p><a class="cta" href="#practice">查看实践经历　↓</a><p class="byline">杨智存 · 西南大学 · 电气工程及其自动化</p></div></div>
-<div class="stats wrap"><div><strong>3 段</strong><span>产品实习</span></div><div><strong>国家二等奖</strong><span>挑战杯团队成果</span></div><div><strong>260 小时</strong><span>累计志愿服务</span></div></div>
+<div class="hero wrap"><div><p class="kicker">职业生涯发展报告 · 成长赛道</p><h1>把技术做进<br>真实的需求里</h1><p class="intro">从电气工程到 AI 产品。我希望把用户想完成的事，变成 AI 能执行、团队能验证的任务。</p><a class="cta" href="#practice">查看实践经历　↓</a><p class="byline">杨智存 · 西南大学<br>2024 级电气工程及其自动化本科生</p></div></div>
+<div class="stats wrap" aria-label="首页经历与荣誉"><div><strong>3 段</strong><span>产品实习</span></div><div><strong>国家二等奖</strong><span>挑战杯团队成果</span></div><div><strong>260 小时</strong><span>累计志愿服务</span></div><div><strong>年级前 7%</strong><span>学业成绩</span></div><div><strong>省级金奖</strong><span>国创赛</span></div><div><strong>市级立项</strong><span>大创项目</span></div><div><strong>国家励志奖学金</strong></div><div><strong>久领工程奖学金</strong></div><div><strong>中共党员</strong></div></div>
 <section class="section wrap split" id="goal"><div><p class="kicker">职业目标</p><h2>AI 产品经理</h2></div><div class="stack"><p>电路、电子技术、电力电子和单片机让我从器件、控制和系统运行条件理解技术方案。当 AI 进入实体设备，响应速度、功耗和稳定性也会影响使用体验。</p><p>AI 产品经理要识别用户问题、确定优先级、协同交付并持续迭代。面对模型输出，还要明确它能处理什么、用什么标准评测，以及失败时如何处理。</p><details><summary>查看报告中的招聘样本</summary><table><thead><tr><th scope="col">企业与岗位</th><th scope="col">报告所列挂牌薪资</th></tr></thead><tbody><tr><td>腾讯元宝 · 大模型评测产品经理</td><td>25–50K/月 · 15 薪</td></tr><tr><td>字节豆包爱学 · AI 产品经理</td><td>20–40K/月 · 15 薪</td></tr><tr><td>阿里巴巴 · 推荐平台产品经理</td><td>30–50K/月</td></tr></tbody></table><p class="sub">以上为原报告收录的岗位样本。</p></details></div></section>
 <section class="section wrap" id="practice"><p class="kicker">学习与实践</p><h2>从用户反馈走到 AI 评测</h2><div class="tabs" role="tablist" aria-label="三段产品实习"><button role="tab" id="t-meituan" aria-controls="p-meituan" aria-selected="true">美团</button><button role="tab" id="t-xhs" aria-controls="p-xhs" aria-selected="false" tabindex="-1">小红书</button><button role="tab" id="t-baidu" aria-controls="p-baidu" aria-selected="false" tabindex="-1">百度</button></div>
 <div class="panel" role="tabpanel" id="p-meituan" aria-labelledby="t-meituan" tabindex="0"><h3>用户产品</h3><p>从用户反馈出发，弄清用户想完成什么任务，以及在哪一步受阻。</p></div>
@@ -53,7 +62,7 @@
 <div class="panel" role="tabpanel" id="p-baidu" aria-labelledby="t-baidu" tabindex="0" hidden><h3>AI 产品</h3><p>把目标从通用产品扩展到 AI 应用，关注模型能力边界，并用明确的标准判断输出能否完成任务。</p></div>
 <p class="intro">三段实习让我积累了从 0 到 1 负责项目、形成竞品功能方案和推动迭代的经验。</p></section>
 <div class="quote"><div class="wrap"><p><span>先问用户卡在哪一步，</span><br><span>再验证改动是否有效。</span></p></div></div>
-<section class="section wrap split" id="honors"><div><p class="kicker">阶段成果</p><h2>把企业方法带回校园</h2></div><div class="stack"><p>挑战杯项目中，我们调研校内用户，也关注校外场景。我把实习中的需求拆解方法带进调研，更关注真实困难发生在什么环节。</p><ul class="awards"><li><strong>挑战杯</strong>　国家二等奖</li><li><strong>国创赛</strong>　省级金奖</li><li><strong>大创项目</strong>　市级立项</li><li><strong>学业成绩</strong>　年级前 7%</li><li><strong>奖学金</strong>　国家励志奖学金、久领工程奖学金、校级二等奖学金</li><li><strong>学生工作</strong>　校级优秀学生干部</li></ul><p>作为中共党员，我担任过校青马工程团支书、社区功能型团支部副书记，累计志愿服务 260 小时。</p></div></section>
+<section class="section wrap split" id="honors"><div><p class="kicker">阶段成果</p><h2>把企业方法带回校园</h2></div><div class="stack"><p>挑战杯项目中，我们调研校内用户，也关注校外场景。我把实习中的需求拆解方法带进调研，更关注真实困难发生在什么环节。</p><ul class="awards"><li><strong>挑战杯</strong>　国家二等奖</li><li><strong>国创赛</strong>　省级金奖</li><li><strong>大创项目</strong>　市级立项</li><li><strong>学业与学生工作</strong>　国家励志奖学金、校级二等奖学金、校级优秀学生干部</li></ul><p>作为中共党员，我担任过校青马工程团支书、社区功能型团支部副书记，累计志愿服务 260 小时。</p></div></section>
 <section class="section wrap" id="plan"><p class="kicker">成长反思与计划</p><h2>从原型验证到产品负责</h2><div class="tabs" role="tablist" aria-label="职业成长阶段"><button role="tab" id="t-before" aria-controls="p-before" aria-selected="true">毕业前</button><button role="tab" id="t-early" aria-controls="p-early" aria-selected="false" tabindex="-1">入职 1–3 年</button><button role="tab" id="t-later" aria-controls="p-later" aria-selected="false" tabindex="-1">入职 3–5 年及以后</button></div>
 <div class="panel" role="tabpanel" id="p-before" aria-labelledby="t-before" tabindex="0"><h3>做一款真正有用的 AI 工具</h3><p>完成访谈、原型、评测和复测，通过真实试用验证能力，并争取头部企业校招机会。</p></div>
 <div class="panel" role="tabpanel" id="p-early" aria-labelledby="t-early" tabindex="0" hidden><h3>独立负责一个 AI 业务模块</h3><p>从需求和评测走到上线，根据实际使用数据迭代，形成有竞争力的功能。</p></div>
